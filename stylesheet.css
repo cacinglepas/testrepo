@@ -88,7 +88,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #47b2e4;
+  background: #96cc7f;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -100,7 +100,7 @@ h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #6bc1e9;
+  background: #4e9379;
   color: #fff;
 }
 .back-to-top.active {
@@ -795,9 +795,9 @@ section {
     # Cta
     --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(67, 107, 71, 0.9), rgba(58, 116, 79, 0.9)), url("../img/bg jumbotron2.jpg") fixed center center;
+  background: linear-gradient(rgba(247, 250, 247, 0.9), rgba(83, 112, 94, 0.9)), url("img/footer/1648920155248.jpg");
   background-size: cover;
-  padding: 120px 0;
+  padding: 170px 0;
 }
 .cta h3 {
   color: #fff;
@@ -817,7 +817,8 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #2e6855;
+  background: #96cc7f;    
+  border: 2px solid #96cc7f;
   color: #fff;
 }
 .cta .cta-btn:hover {
@@ -1377,7 +1378,7 @@ section {
   padding: 10px 12px;
 }
 .contact .php-email-form button[type="submit"] {
-  background: #4e9379;
+  background: #96cc7f;
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -1385,7 +1386,8 @@ section {
   border-radius: 50px;
 }
 .contact .php-email-form button[type="submit"]:hover {
-  background: #59d187;
+  background: #4e9379;
+  59d187
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -2056,14 +2058,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #4e9379;
+  background: #96cc7f;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #20d87f;
+  background: #4e9379;
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
