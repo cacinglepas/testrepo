@@ -817,7 +817,7 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  background: #96cc7f;    
+  background: #96cc7f;
   border: 2px solid #96cc7f;
   color: #fff;
 }
@@ -1387,7 +1387,6 @@ section {
 }
 .contact .php-email-form button[type="submit"]:hover {
   background: #4e9379;
-  59d187
 }
 @-webkit-keyframes animate-loading {
   0% {
