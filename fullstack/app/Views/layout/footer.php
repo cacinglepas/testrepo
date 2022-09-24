@@ -4,8 +4,8 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-6">
-              <h4>Join Our Newsletter</h4>
-              <p>Gabung untuk menjadi bagian dari GemilangPermata</p>
+              <h4>Bergabung dengan kami</h4>
+              <p>Gabung untuk menjadi bagian dari Gemilang Permata</p>
               <form action="" method="post"><input type="email" name="email" /><input type="submit" value="Subscribe" /></form>
             </div>
           </div>
@@ -22,7 +22,7 @@
                 Kota Tangerang, Banten Indonesia 15157<br />
                 Indonesia <br /><br />
                 <strong>Phone:</strong> +62 813 8178 2792<br />
-                <strong>Email:</strong> Gemilangpermata@gmail.com<br />
+                <strong>Email:</strong> info@gemilangpermata.com<br />
               </p>
             </div>
 

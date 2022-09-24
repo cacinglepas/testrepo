@@ -42,13 +42,13 @@
   
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto active" href="<?=base_url()?>">Home</a></li>
-            <li><a class="nav-link scrollto" href="<?=base_url('event'); ?>">Event</a></li>
-            <li><a class="nav-link scrollto" href="<?=base_url('blog'); ?>">Blog</a></li>
-            <li><a class="nav-link scrollto" href="#services">Services</a></li>
+            <li><a class="nav-link scrollto active" href="<?=base_url()?>">Beranda</a></li>
+            <li><a class="nav-link scrollto" href="<?=base_url('event'); ?>">Berita</a></li>
+            <li><a class="nav-link scrollto" href="<?=base_url('blog'); ?>">Artikel</a></li>
+            <li><a class="nav-link scrollto" href="#services">Divisi</a></li>
             <li><a class="nav-link scrollto" href="<?=base_url('portfolio'); ?>">Portfolio</a></li>
-            <li><a class="nav-link scrollto" href="#team">Team</a></li>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            <li><a class="nav-link scrollto" href="#team">Anggota</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -64,8 +64,8 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-6">
-              <h4>Join Our Newsletter</h4>
-              <p>Gabung untuk menjadi bagian dari GemilangPermata</p>
+              <h4>Ayo bergabung dengan kami!</h4>
+              <p>Gabung untuk menjadi bagian dari Gemilang Permata</p>
               <form action="" method="post"><input type="email" name="email" /><input type="submit" value="Subscribe" /></form>
             </div>
           </div>
@@ -81,8 +81,8 @@
                 Jl. Hos Cokroaminoto, Karang Tengah <br />
                 Kota Tangerang, Banten Indonesia 15157<br />
                 Indonesia <br /><br />
-                <strong>Phone:</strong> +62 813 8178 2792<br />
-                <strong>Email:</strong> Gemilangpermata@gmail.com<br />
+                <strong>Phone:</strong> +62 899 9657 180<br />
+                <strong>Email:</strong> nfo@gemilangpermata.com<br />
               </p>
             </div>
 

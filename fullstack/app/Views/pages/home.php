@@ -6,8 +6,8 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-              <h1>Better Solutions For Your Business</h1>
-              <h2>We are team of talented money chaser to getting paid well</h2>
+              <h1>Solusi Terbaik Untuk Kebutuhan Anda</h1>
+              <h2>Memberikan Pelayanan Terbaik Dibidang Produk Maupun Jasa</h2>
               <div class="d-flex justify-content-center justify-content-lg-start">
                 <a href="#about" class="btn-get-started scrollto">Get Started</a>
                 <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
@@ -41,7 +41,7 @@
       <section id="about" class="about">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>About Us</h2>
+            <h2>Tentang Kami</h2>
           </div>
 
           <div class="row content">
@@ -50,14 +50,17 @@
                 CV Gemilang Permata dirikan pada Oktober 2021, berdasarkan dengan berlatar belakang professionalisme talenta yang kami punya. Yang bertujuan memberikan pelayanan terbaik dibidang produk maupun jasa yang menyesuaikan
                 kebutuhan pasar dengan pelayanan terbaik.
               </p>
-              <ul>
+              <!-- <ul>
                 <li><i class="ri-check-double-line"></i> pelayanan ditangani dengan ahlinya</li>
                 <li><i class="ri-check-double-line"></i> garansi pada tiap divisi yang menangani</li>
                 <li><i class="ri-check-double-line"></i> kerja tuntas dan tepat</li>
-              </ul>
+              </ul> -->
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0">
               <p>Dengan ini kami hadir sebagai solusi atau fasilitator untuk memenuhi kebutuhan customer yang kami harapkan dapat bekerja sama dengan menjunjung tinggi professionalitas dan dapat berlangsung secara berkepanjangan.</p>
+              <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
+            </div>
+            <div class="col-lg-12 pt-4 pt-lg-0 text-center mt-5">
               <a href="#" class="btn-learn-more">Learn More</a>
             </div>
           </div>
@@ -70,45 +73,54 @@
         <div class="container-fluid" >
           <div class="row">
             <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1">
-              <div class="content">
-                <h3>Kami bekerja melalui sistem <strong>yang dimana kinerja adalah prioritas</strong></h3>
-                <p>melalui sebuah sistem yang kami buat akan mempermudah tiap divisi untuk interaksi terhadap divisi lainya</p>
+              <div class="content mb-3">
+                <h3>Kami bekerja melalui sistem, <strong>dimana kinerja adalah prioritas</strong></h3>
+                <!-- <p>melalui sebuah sistem yang kami buat akan mempermudah setiap divisi untuk berinteraksi terhadap divisi lainya</p> -->
               </div>
 
               <div class="accordion-list">
                 <ul>
                   <li>
                     <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"
-                      ><span>01</span> lu mao nanya apaan? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i
+                      ><span>01</span> Apa itu CV. Gemilang Permata? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i
                     ></a>
                     <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
-                      <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                      <p>CV. Gemilang Permata adallah sebuah perusahaan yang bergerak di berbagai bidang jasa & produk. Untuk memenuhi kebutuhan customer.kami memiliki berbagai produk jasa seperti Random String (Web Servicee), Permata Fresh (Pengadaan), Madeline (WO), dan Ekspedisi. </p>
                     </div>
                   </li>
 
                   <li>
                     <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"
-                      ><span>02</span> Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i
+                      ><span>02</span>Apa Produk & Jasa saja yang tersedia? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i
                     ></a>
                     <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                       <p>
-                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper
-                        dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                        Produk & jasa yang kami sediakan diantaranya bidang Pengadaan, Percetakan, Website Development, Wedding Orginazer, dan Kuliner.
                       </p>
                     </div>
                   </li>
 
                   <li>
                     <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"
-                      ><span>03</span> Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i
+                      ><span>03</span> Apa keuanggulan yang ditawarkan? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i
                     ></a>
                     <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                       <p>
-                        Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna
-                        duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                        Kami menjunjung tinggi profesionalisme serta menyediakan tenaga ahli dan produk yang terbaik.
                       </p>
                     </div>
                   </li>
+
+                  <li>
+                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-4" class="collapsed"
+                      ><span>04</span> Bagaimana melakukan pesanan? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i
+                    ></a>
+                    <div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
+                      <p>Hubungi Kami di info@gemilangpermata.com atau <a href="#contact">klik link berikut</a>
+                      </p>
+                    </div>
+                  </li>
+
                 </ul>
               </div>
             </div>
@@ -169,42 +181,57 @@
       <section id="services" class="services section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Services</h2>
+            <h2>Divisi</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste
-              officiis commodi quidem hic quas.
+              Kami menyediakan berbagai layanan dan jasa dengan tim ahli yang komperhensif serta berpengalaman pada bidangnya.  
             </p>
           </div>
 
           <div class="row">
-            <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
               <div class="icon-box">
-                <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4><a href="">Lorem Ipsum</a></h4>
-                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <div class="icon"><i class="bx bx-code-alt"></i></div>
+                <h4><a href="">Web Development</a></h4>
+                <p>Jasa pembuatan web aplikasi dengan tenaga ahli dan servis yang komprehensif</p>
               </div>
             </div>
 
-            <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-file"></i></div>
-                <h4><a href="">Sed ut perspici</a></h4>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                <div class="icon"><i class="bx bx-package"></i></div>
+                <h4><a href="">Pengaadaan & Jasa</a></h4>
+                <p>Menyediakan barang dan jasa yang dibutuhkan </p>
               </div>
             </div>
 
-            <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4><a href="">Magni Dolores</a></h4>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                <div class="icon"><i class="bx bx-cake"></i></div>
+                <h4><a href="">Event Organizer</a></h4>
+                <p>Jasa penyelenggaraan berbagai kegiatan dan acara dengan tim yang handal pada bidangnya</p>
               </div>
             </div>
 
-            <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="400">
               <div class="icon-box">
-                <div class="icon"><i class="bx bx-layer"></i></div>
-                <h4><a href="">Nemo Enim</a></h4>
+                <div class="icon"><i class="bx bxs-truck"></i></div>
+                <h4><a href="">Ekspedisi</a></h4>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="400">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-restaurant"></i></div>
+                <h4><a href="">Kuliner</a></h4>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              </div>
+            </div>
+
+            <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="400">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-printer"></i></div>
+                <h4><a href="">Percetakan</a></h4>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
               </div>
             </div>
@@ -218,11 +245,11 @@
         <div class="container" data-aos="zoom-in">
           <div class="row">
               <div class="col-lg-12 text-center text-lg-start">
-                <h3>Call To Action</h3>
+                <h3>Hubungi Kami</h3>
                 <p>"Sleep Call by Erland"</p>
               </div>
               <div class="col-lg-3 cta-btn-container text-lg-start text-center">
-                <a class="cta-btn align-middle" href="#contact">Call To Action</a>
+                <a class="cta-btn align-middle" href="#contact">Hubungi Kami</a>
               </div>
             </div>
           </div>
@@ -346,19 +373,18 @@
       <section id="team" class="team section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Team</h2>
+            <h2>Anggota</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste
-              officiis commodi quidem hic quas.
+              .
             </p>
           </div>
 
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 mt-4">
               <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
                 <div class="pic"><img src="<?=base_url()?>/assets/img/team/team-1.jpg" class="img-fluid" alt="" /></div>
                 <div class="member-info">
-                  <h4>Verry Rolli</h4>
+                  <h4>Verry Rolli Veronika</h4>
                   <span>President Director</span>
                   <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
                   <div class="social">
@@ -371,11 +397,11 @@
               </div>
             </div>
 
-            <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="col-lg-6 mt-4 ">
               <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
                 <div class="pic"><img src="<?=base_url()?>/assets/img/team/team-2.jpg" class="img-fluid" alt="" /></div>
                 <div class="member-info">
-                  <h4>Bari</h4>
+                  <h4>Bahri</h4>
                   <span>General Manager</span>
                   <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
                   <div class="social">
@@ -392,7 +418,7 @@
               <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
                 <div class="pic"><img src="<?=base_url()?>/assets/img/team/team-3.jpg" class="img-fluid" alt="" /></div>
                 <div class="member-info">
-                  <h4>Muhammad Yasin</h4>
+                  <h4>Muhamad Yasin Fachruddin</h4>
                   <span>Commmissioner</span>
                   <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
                   <div class="social">
@@ -565,10 +591,9 @@
       <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Contact</h2>
+            <h2>Kontak</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste
-              officiis commodi quidem hic quas.
+              Hubungi kami untuk mendapatkan info lebih lanjut atau melakukan pemesanan.
             </p>
           </div>
 
@@ -577,7 +602,7 @@
               <div class="info">
                 <div class="address">
                   <i class="bi bi-geo-alt"></i>
-                  <h4>Location:</h4>
+                  <h4>Lokasi:</h4>
                   <p>
                     Jl. Hos Cokroaminoto, Karang Tengah <br />
                     Kota Tangerang, Banten Indonesia 15157<br />
@@ -588,13 +613,13 @@
                 <div class="email">
                   <i class="bi bi-envelope"></i>
                   <h4>Email:</h4>
-                  <p>Gemilangpermata@example.com</p>
+                  <p>info@gemilangpermata.com</p>
                 </div>
 
                 <div class="phone">
                   <i class="bi bi-phone"></i>
-                  <h4>Call:</h4>
-                  <p>+62 813 8178 2792</p>
+                  <h4>telepon:</h4>
+                  <p>+62 899 9657 180</p>
                 </div>
 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7932.547560957778!2d106.7137294994429!3d-6.227589463935746!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb1e5f57aedb%3A0x50fde5e9c0fcc5d1!2sCV.%20GEMILANG%20PERMATA%2C%20Jalan%20H.%20Naba%20IV%2C%20RT.003%2FRW.009%2C%20East%20Karang%2C%20Tangerang%20City%2C%20Banten!5e0!3m2!1sen!2sid!4v1657197106242!5m2!1sen!2sid" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
