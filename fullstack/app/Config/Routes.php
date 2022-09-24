@@ -35,13 +35,13 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'PagesController::index');
-$routes->get('/blog', 'PagesController::blog');
-$routes->get('/blog/blogsingle', 'PagesController::blogsingle');
-$routes->get('/event', 'PagesController::event');
-$routes->get('/event/eventsingle','pagescontroller::eventsingle');
+$routes->get('/', 'HomeController::index');
+$routes->get('/blog', 'BlogController::index');
+$routes->get('/blog/blogsingle', 'BlogController::detail');
+$routes->get('/event', 'EventController::index');
+$routes->get('/event/eventsingle','EventController::detail');
 $routes->get('/users','admin/Users::index');
-$routes->get('/portfolio','pagesController::portfolio');
+$routes->get('/portfolio','PortofolioController::index');
 $routes->get('/pagesadmin','PagesController::pagesadmin');
 
 /*
