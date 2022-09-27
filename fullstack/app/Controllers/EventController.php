@@ -19,9 +19,6 @@ class EventController extends BaseController
 
         $event= $this->event_model->findAll();
         $data['event']=$event;
-
-        $blogs= $this->blog_model->findAll();
-        $data['blogs']= $blogs;
         
         return view('pages/event',$data);
     }
