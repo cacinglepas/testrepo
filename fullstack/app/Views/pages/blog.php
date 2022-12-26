@@ -1,4 +1,4 @@
-<?=$this->extend('layout/tamplate'); ?>
+<?=$this->extend('layout/template'); ?>
 <?=$this->section('content'); ?>
 
     <main id="main">

@@ -1,4 +1,4 @@
-<?=$this->extend('layout/tamplate-hero'); ?>
+<?=$this->extend('layout/template-hero'); ?>
 <?=$this->section('content');?>
     <main id="main">
 

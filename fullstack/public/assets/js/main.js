@@ -42,10 +42,10 @@
 
   // fixed-top before scroll
   window.addEventListener("scroll", function () {
-    if (window.scrollY > 2) {
-      document.getElementById("header-default").classList.add("fixed-top");
-    } else {
+    if (window.scrollY <= 0) {
       document.getElementById("header-default").classList.remove("fixed-top");
+    } else {
+      document.getElementById("header-default").classList.add("fixed-top");
     }
   });
 
@@ -156,6 +156,7 @@
           navbarToggle.classList.toggle("bi-list");
           navbarToggle.classList.toggle("bi-x");
         }
+        console.log(this.hash)
         scrollto(this.hash);
       }
     },
@@ -277,3 +278,28 @@
     });
   });
 })();
+
+$(document).ready(function(){
+  if ($(".clients")[0]){
+    $('.clients').slick({
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1500,
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [{
+          breakpoint: 768,
+          settings: {
+              slidesToShow: 4
+          }
+      }, {
+          breakpoint: 520,
+          settings: {
+              slidesToShow: 3
+          }
+      }]
+    });
+  }
+});

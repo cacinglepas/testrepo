@@ -1,4 +1,4 @@
-<?=$this->extend('layout/tamplate-hero'); ?>
+<?=$this->extend('layout/template-hero'); ?>
 <?=$this->section('content'); ?>
     <main id="main">
       <!-- ======= Hero Section ======= -->
@@ -9,8 +9,8 @@
               <h1>Solusi Terbaik Untuk Kebutuhan Anda</h1>
               <h2>Memberikan Pelayanan Terbaik Dibidang Produk Maupun Jasa</h2>
               <div class="d-flex justify-content-center justify-content-lg-start">
-                <a href="#about" class="btn-get-started scrollto">Get Started</a>
-                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+                <a href="#about" class="btn-get-started scrollto">Pelajari Lebih Lanjut</a>
+                <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
               </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
@@ -22,8 +22,8 @@
       <!-- End Hero -->
 
       <!-- ======= Clients Section ======= -->
-      <section id="clients" class="clients section-bg">
-        <div class="container">
+      <section id="clients" class="clients section-bg slider">
+        <!-- <div class="container">
           <div class="row" data-aos="zoom-in">
             <?php 
               foreach ($partners as $value) {
@@ -33,7 +33,21 @@
               </div>
             <?php } ?>
           </div>
-        </div>
+        </div> -->
+        <?php 
+          foreach ($partners as $value) {
+        ?>
+          <div class="slide"><img src="<?=base_url().$value['logo']?>" alt="<?=$value['link']?>" /></div>
+        <?php } ?>
+        <!-- <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
+        <div class="slide"><img src="http://www.webcoderskull.com/img/logo.png"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg"></div>
+        <div class="slide"><img src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg"></div> -->
       </section>
       <!-- End Cliens Section -->
 
@@ -61,7 +75,7 @@
               <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
             </div>
             <div class="col-lg-12 pt-4 pt-lg-0 text-center mt-5">
-              <a href="#" class="btn-learn-more">Learn More</a>
+              <a href="#why-us" class="btn-learn-more">Lanjut</a>
             </div>
           </div>
         </div>
@@ -85,17 +99,17 @@
                       ><span>01</span> Apa itu CV. Gemilang Permata? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i
                     ></a>
                     <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
-                      <p>CV. Gemilang Permata adallah sebuah perusahaan yang bergerak di berbagai bidang jasa & produk. Untuk memenuhi kebutuhan customer.kami memiliki berbagai produk jasa seperti Random String (Web Servicee), Permata Fresh (Pengadaan), Madeline (WO), dan Ekspedisi. </p>
+                      <p>CV. Gemilang Permata adalah sebuah perusahaan yang bergerak di berbagai bidang jasa dan produk yang bertujuan menjadi solusi atau fasilitator untuk memenuhi kebutuhan pelanggan. </p>
                     </div>
                   </li>
 
                   <li>
                     <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"
-                      ><span>02</span>Apa Produk & Jasa saja yang tersedia? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i
+                      ><span>02</span>Apa Produk dan Jasa saja yang tersedia? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i
                     ></a>
                     <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                       <p>
-                        Produk & jasa yang kami sediakan diantaranya bidang Pengadaan, Percetakan, Website Development, Wedding Orginazer, dan Kuliner.
+                        Produk dan jasa yang kami sediakan diantaranya bidang Pengadaan, Percetakan, Website Development, Wedding Orginazer, dan Kuliner.
                       </p>
                     </div>
                   </li>
@@ -113,10 +127,10 @@
 
                   <li>
                     <a data-bs-toggle="collapse" data-bs-target="#accordion-list-4" class="collapsed"
-                      ><span>04</span> Bagaimana melakukan pesanan? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i
+                      ><span>04</span> Bagaimana cara melakukan pesanan? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i
                     ></a>
                     <div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
-                      <p>Hubungi Kami di info@gemilangpermata.com atau <a href="#contact">klik link berikut</a>
+                      <p>Hubungi Kami melalui email kami info@gemilangpermata.com atau <a class="scrollto" href="#contact">klik link berikut</a>
                       </p>
                     </div>
                   </li>
@@ -176,6 +190,22 @@
         </div>
       </section> -->
       <!-- End Skills Section -->
+      
+      <!-- ======= Cta Section ======= -->
+      <section id="cta" class="cta">
+        <div class="container" data-aos="zoom-in">
+          <div class="row">
+              <div class="col-lg-12 text-center text-lg-start">
+                <h3>Hubungi Kami</h3>
+                <p>"Silahkan hubungi kami untuk mendapatkan info lebih lanjut"</p>
+              </div>
+              <div class="col-lg-3 cta-btn-container text-lg-start text-center">
+                <a class="cta-btn align-middle" href="#contact">Hubungi Kami</a>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- End Cta Section -->
 
       <!-- ======= Services Section ======= -->
       <section id="services" class="services section-bg">
@@ -183,7 +213,7 @@
           <div class="section-title">
             <h2>Divisi</h2>
             <p>
-              Kami menyediakan berbagai layanan dan jasa dengan tim ahli yang komperhensif serta berpengalaman pada bidangnya.  
+              Kami menyediakan berbagai layanan dan jasa dengan tim ahli yang komprehensif serta berpengalaman pada bidangnya.  
             </p>
           </div>
 
@@ -192,7 +222,7 @@
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-code-alt"></i></div>
                 <h4><a href="">Web Development</a></h4>
-                <p>Jasa pembuatan web aplikasi dengan tenaga ahli dan servis yang komprehensif</p>
+                <p>Jasa pembuatan web aplikasi yang meliputi website, web-based system dan web-service dengan tenaga ahli dan servis yang komprehensif</p>
               </div>
             </div>
 
@@ -200,7 +230,7 @@
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-package"></i></div>
                 <h4><a href="">Pengaadaan & Jasa</a></h4>
-                <p>Menyediakan barang dan jasa yang dibutuhkan </p>
+                <p>Menyediakan barang dan jasa yang dibutuhkan oleh klien dengan produk dan tenaga ahli terbaik</p>
               </div>
             </div>
 
@@ -216,7 +246,7 @@
               <div class="icon-box">
                 <div class="icon"><i class="bx bxs-truck"></i></div>
                 <h4><a href="">Ekspedisi</a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                <p>Jasa pengiriman paket dan dokumen ke seluruh indonesia maupun internasional dengan cepat, aman dan murah</p>
               </div>
             </div>
 
@@ -224,7 +254,7 @@
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-restaurant"></i></div>
                 <h4><a href="">Kuliner</a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                <p>Kami membuat produk pada bidang minuman dan makanan. Serta menyediakan jasa pada bidang kuliner untuk kebutuhan anda</p>
               </div>
             </div>
 
@@ -232,29 +262,13 @@
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-printer"></i></div>
                 <h4><a href="">Percetakan</a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                <p>Jasa percetakan, disain, dan reklame yang didukung dengan mesin percetakan berteknologi tinggi dan sistem digital dengan hasil kualitas terbaik </p>
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- End Services Section -->
-
-      <!-- ======= Cta Section ======= -->
-      <section id="cta" class="cta">
-        <div class="container" data-aos="zoom-in">
-          <div class="row">
-              <div class="col-lg-12 text-center text-lg-start">
-                <h3>Hubungi Kami</h3>
-                <p>"Sleep Call by Erland"</p>
-              </div>
-              <div class="col-lg-3 cta-btn-container text-lg-start text-center">
-                <a class="cta-btn align-middle" href="#contact">Hubungi Kami</a>
-              </div>
-            </div>
-          </div>
-      </section>
-      <!-- End Cta Section -->
 
       <!-- ======= Portfolio Section ======= -->
       <section id="portfolio" class="portfolio">
@@ -379,44 +393,10 @@
             </p>
           </div>
 
-          <div class="row">
-            <div class="col-lg-6 mt-4">
-              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-                <div class="pic"><img src="<?=base_url()?>/assets/img/team/team-1.jpg" class="img-fluid" alt="" /></div>
-                <div class="member-info">
-                  <h4>Verry Rolli Veronika</h4>
-                  <span>President Director</span>
-                  <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                  <div class="social">
-                    <a href=""><i class="ri-twitter-fill"></i></a>
-                    <a href=""><i class="ri-facebook-fill"></i></a>
-                    <a href=""><i class="ri-instagram-fill"></i></a>
-                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6 mt-4 ">
-              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-                <div class="pic"><img src="<?=base_url()?>/assets/img/team/team-2.jpg" class="img-fluid" alt="" /></div>
-                <div class="member-info">
-                  <h4>Bahri</h4>
-                  <span>General Manager</span>
-                  <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                  <div class="social">
-                    <a href=""><i class="ri-twitter-fill"></i></a>
-                    <a href=""><i class="ri-facebook-fill"></i></a>
-                    <a href=""><i class="ri-instagram-fill"></i></a>
-                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
+          <div class="row row-flex">
             <div class="col-lg-6 mt-4">
               <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-                <div class="pic"><img src="<?=base_url()?>/assets/img/team/team-3.jpg" class="img-fluid" alt="" /></div>
+                <div class="pic"><img src="<?=base_url()?>/assets/img/team/team-3.png" class="img-fluid" alt="" /></div>
                 <div class="member-info">
                   <h4>Muhamad Yasin Fachruddin</h4>
                   <span>Commmissioner</span>
@@ -432,12 +412,12 @@
             </div>
 
             <div class="col-lg-6 mt-4">
-              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-                <div class="pic"><img src="<?=base_url()?>/assets/img/team/team-4.jpg" class="img-fluid" alt="" /></div>
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                <div class="pic"><img src="<?=base_url()?>/assets/img/team/team-1.png" class="img-fluid" alt="" /></div>
                 <div class="member-info">
-                  <h4>Faridh Maulana</h4>
-                  <span>Product Manager</span>
-                  <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                  <h4>Verry Rolli Vermonikha</h4>
+                  <span>President Director</span>
+                  <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
                   <div class="social">
                     <a href=""><i class="ri-twitter-fill"></i></a>
                     <a href=""><i class="ri-facebook-fill"></i></a>
@@ -447,6 +427,41 @@
                 </div>
               </div>
             </div>
+          </div>
+          <div class="row row-flex justify-content-center">
+            <div class="col-lg-6 mt-4 align-self-center">
+              <div class="member d-flex align-self-center" data-aos="zoom-in" data-aos-delay="200">
+                <div class="pic"><img src="<?=base_url()?>/assets/img/team/team-2.png" class="img-fluid" alt="" /></div>
+                <div class="member-info">
+                  <h4>Bahri</h4>
+                  <span>General Manager</span>
+                  <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                  <div class="social">
+                    <a href=""><i class="ri-twitter-fill"></i></a>
+                    <a href=""><i class="ri-facebook-fill"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-lg-6 mt-4">
+              <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                <div class="pic"><img src="<?=base_url()?>/assets/img/team/team-4.png" class="img-fluid" alt="" /></div>
+                <div class="member-info">
+                  <h4>Faridh Maulana</h4>
+                  <span>Project Manager</span>
+                  <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                  <div class="social">
+                    <a href=""><i class="ri-twitter-fill"></i></a>
+                    <a href=""><i class="ri-facebook-fill"></i></a>
+                    <a href=""><i class="ri-instagram-fill"></i></a>
+                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -618,7 +633,7 @@
 
                 <div class="phone">
                   <i class="bi bi-phone"></i>
-                  <h4>telepon:</h4>
+                  <h4>Telepon:</h4>
                   <p>+62 899 9657 180</p>
                 </div>
 
@@ -630,11 +645,11 @@
               <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                 <div class="row">
                   <div class="form-group col-md-6">
-                    <label for="name">Your Name</label>
+                    <label for="name">Nama</label>
                     <input type="text" name="name" class="form-control" id="name" required />
                   </div>
                   <div class="form-group col-md-6">
-                    <label for="name">Your Email</label>
+                    <label for="name">Email</label>
                     <input type="email" class="form-control" name="email" id="email" required />
                   </div>
                 </div>
@@ -643,15 +658,15 @@
                   <input type="text" class="form-control" name="subject" id="subject" required />
                 </div>
                 <div class="form-group">
-                  <label for="name">Message</label>
+                  <label for="name">Pesan</label>
                   <textarea class="form-control" name="message" rows="10" required></textarea>
                 </div>
                 <div class="my-3">
-                  <div class="loading">Loading</div>
+                  <div class="loading">Menunggu</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div class="sent-message">Pesan telah dikirim. Terima kasih!</div>
                 </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
+                <div class="text-center"><button type="submit">Kirim Pesan</button></div>
               </form>
             </div>
           </div>

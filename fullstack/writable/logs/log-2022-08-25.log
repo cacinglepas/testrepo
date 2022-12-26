@@ -43,11 +43,11 @@ in APPPATH\Controllers\pages.php on line 26.
  8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
  9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
 CRITICAL - 2022-08-25 01:33:28 --> Undefined variable: title
-in APPPATH\Views\layout\tamplate.php on line 15.
- 1 APPPATH\Views\layout\tamplate.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\layout\\tamplate.php', 15, [...])
- 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\tamplate.php')
+in APPPATH\Views\layout\template.php on line 15.
+ 1 APPPATH\Views\layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\layout\\template.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
  3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/tamplate', [], true)
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
  5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/event', [], true)
  6 APPPATH\Controllers\pages.php(19): view('pages/event', [...])
  7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pages->event()
@@ -56,11 +56,11 @@ in APPPATH\Views\layout\tamplate.php on line 15.
 10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
 11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
 CRITICAL - 2022-08-25 01:33:45 --> Undefined variable: data
-in APPPATH\Views\layout\tamplate.php on line 15.
- 1 APPPATH\Views\layout\tamplate.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\layout\\tamplate.php', 15, [...])
- 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\tamplate.php')
+in APPPATH\Views\layout\template.php on line 15.
+ 1 APPPATH\Views\layout\template.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\layout\\template.php', 15, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
  3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
- 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/tamplate', [], true)
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
  5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/event', [], true)
  6 APPPATH\Controllers\pages.php(19): view('pages/event', [...])
  7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\pages->event()

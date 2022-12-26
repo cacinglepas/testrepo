@@ -160,6 +160,12 @@ h6 {
 #header-default .logo img {
   max-height: 40px;
 }
+
+@media (max-width: 575px) {
+  #header .logo-img {
+    display: none;
+  }
+}
 /*--------------------------------------------------------------
     # Navigation Menu
     --------------------------------------------------------------*/
@@ -202,7 +208,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #3da26f;
+  color: #D6CDA4;
 }
 .navbar .getstarted,
 .navbar .getstarted:focus {
@@ -250,7 +256,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  color: #47b2e4;
+  color: #08503c;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -334,12 +340,12 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #37517e;
+  color: #08503c;
 }
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #47b2e4;
+  color: #08503c;
 }
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
@@ -369,7 +375,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
-  color: #47b2e4;
+  color: #08503c;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -383,6 +389,7 @@ h6 {
   height: 80vh;
   background: #08503c;
 }
+
 #hero .container {
   padding-top: 72px;
 }
@@ -477,6 +484,13 @@ h6 {
   }
 }
 
+@media (max-height: 645px) {
+  #hero {
+    height: 100% !important;
+    text-align: center;
+  }
+}
+
 @-webkit-keyframes up-down {
   0% {
     transform: translateY(10px);
@@ -551,11 +565,11 @@ section {
   text-align: center;
 }
 .clients img {
-  max-width: 45%;
+  max-width: 170px;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
-  filter: grayscale(100);
+  /* filter: grayscale(100); */
 }
 .clients img:hover {
   filter: none;
@@ -563,7 +577,7 @@ section {
 }
 @media (max-width: 768px) {
   .clients img {
-    max-width: 40%;
+    max-width: 170px;
   }
 }
 
@@ -590,7 +604,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #3da26f;
+  color: #D6CDA4;
   line-height: 1;
 }
 .about .content p:last-child {
@@ -667,7 +681,7 @@ section {
   cursor: pointer;
 }
 .why-us .accordion-list span {
-  color: #3da26f;
+  color: #D6CDA4;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -740,7 +754,7 @@ section {
 .skills .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #47b2e4;
+  color: #08503c;
 }
 .skills .content p:last-child {
   margin-bottom: 0;
@@ -758,7 +772,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #37517e;
+  color: #08503c;
 }
 .skills .progress .skill .val {
   float: right;
@@ -788,7 +802,7 @@ section {
   margin-bottom: 10px;
 }
 .services .icon-box .icon i {
-  color: #47b2e4;
+  color: #08503c;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -798,7 +812,7 @@ section {
   font-size: 24px;
 }
 .services .icon-box h4 a {
-  color: #37517e;
+  color: #08503c;
   transition: ease-in-out 0.3s;
 }
 .services .icon-box p {
@@ -810,7 +824,7 @@ section {
   transform: translateY(-10px);
 }
 .services .icon-box:hover h4 a {
-  color: #47b2e4;
+  color: #08503c;
 }
 
 /*--------------------------------------------------------------
@@ -999,6 +1013,7 @@ section {
     --------------------------------------------------------------*/
 .team .member {
   position: relative;
+  height: 100%;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
   border-radius: 5px;
@@ -1008,6 +1023,7 @@ section {
 .team .member .pic {
   overflow: hidden;
   width: 180px;
+  min-width: 180px;
   border-radius: 50%;
 }
 .team .member .pic img {
@@ -1219,7 +1235,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #47b2e4;
+  color: #08503c;
 }
 .faq .faq-list .icon-show,
 .faq .faq-list .icon-close {
@@ -1236,11 +1252,11 @@ section {
   display: none;
 }
 .faq .faq-list a.collapsed {
-  color: #37517e;
+  color: #08503c;
   transition: 0.3s;
 }
 .faq .faq-list a.collapsed:hover {
-  color: #47b2e4;
+  color: #08503c;
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
@@ -2086,7 +2102,7 @@ section {
     --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #559471f0;
+  background: #08503c;
 }
 #footer .footer-newsletter {
   padding: 50px 0;
@@ -2249,4 +2265,122 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+
+/* SLICK CSS SECTION */
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-slider
+{
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus
+{
+  outline: none;
+}
+.slick-list.dragging
+{
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+  -webkit-transform: translate3d(0, 0, 0);
+     -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+       -o-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+  display: table;
+  content: '';
+}
+.slick-track:after
+{
+  clear: both;
+}
+.slick-loading .slick-track
+{
+  visibility: hidden;
+}
+
+.slick-slide
+{
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+  float: right;
+}
+.slick-slide img
+{
+  display: inline;
+}
+.slick-slide.slick-loading img
+{
+  display: none;
+}
+.slick-slide.dragging img
+{
+  pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+  display: block;
+}
+.slick-loading .slick-slide
+{
+  visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
 }
